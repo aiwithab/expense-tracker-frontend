@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import AppNav from './AppNav';
 
 
 
@@ -26,11 +26,13 @@ class Category extends Component {
         
         return (
             <div>
+                <AppNav/>
                 <h2>Categories</h2>
                 {
                     Categories.map(
                         category => 
                         <div id={category.id}>
+                            
                             {category.name}
                         </div>
                     )
