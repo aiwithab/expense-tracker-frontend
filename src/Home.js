@@ -9,7 +9,13 @@ class Home extends Component {
 
     render() {
         return (
-            <AppNav/>
+            <div>
+                 <AppNav/>
+                 <h2 style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+                     Welcome to easy expense app !!!
+                 </h2>
+            </div>
+           
     );
     }
 }
