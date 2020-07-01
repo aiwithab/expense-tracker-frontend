@@ -1,68 +1,96 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://github.com/aiwithab/expense-tracker/blob/master/images/expenselr-logo.png" alt="Project logo"></a>
+</p>
 
-## Available Scripts
+<h3 align="center">Expenselr</h3>
 
-In the project directory, you can run:
+<div align="center">
 
-### `npm start`
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+</div>
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center"> Expenselr is an expense tracking web app. To track expenses while having great user experience.
+    <br> 
+</p>
 
-### `npm run build`
+## 📝 Table of Contents
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Author](#authors)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🧐 About <a name = "about"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Track expenses like never before using "Expenselr", with its easy and user friendly UI you can add expenses according to category. more features like total and shared expenses are coming, so stay connected.
 
-### `npm run eject`
+## 🏁 Getting Started <a name = "getting_started"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm to start frontend which is in ReactJS 
+```
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+and Java To run backend that is a Spring Boot application
 
-## Learn More
+### Installing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A step by step series of examples that tell you how to get a development env running.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Install npm and git on your machine if not already.
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- go to official npmjs website
+```
+https://www.npmjs.com/get-npm
+```
 
-### Analyzing the Bundle Size
+- download npm and install according to your system.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- clone this repository using command
 
-### Making a Progressive Web App
+```
+git clone repository-link
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+go to project folder
 
-### Advanced Configuration
+```
+cd project-folder-name
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+run using npm
 
-### Deployment
+``` 
+npm start 
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+also run java application as spring boot app
 
-### `npm run build` fails to minify
+``` 
+run as spring boot app
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## 🎈 Usage <a name="usage"></a>
+
+Track your expenses while travelling or shopping and keep a track of your exepense to better make decesions.
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [ReactJS](https://reactjs.org/) - Frontend Webapp
+- [Spring Boot](https://spring.io/projects/spring-boot) - Server and API endpoints
+
+## ✍️ Author <a name = "authors"></a>
+
+- [@aiwithab](https://github.com/aiwithab) - Idea & Initial work, Project maintainer
